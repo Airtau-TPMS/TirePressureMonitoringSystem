@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mSettings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_settings"
+        >
+    </item>
+
+    <item
+        android:id="@+id/mHelp"
+        android:title="@string/menu_help"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/menu_about"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        >
+    </item>
+</menu>

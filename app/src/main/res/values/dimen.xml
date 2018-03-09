@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_top_margin">5dp</dimen>
+    <dimen name="card_left_margin">15dp</dimen>
+    <dimen name="card_right_margin">15dp</dimen>
+    <dimen name="card_internal_margin">5dp</dimen>
+
+    <dimen name="card_title_height">40dp</dimen>
+    <dimen name="card_dummy_height">30dp</dimen>
+    <dimen name="card_text_small">15sp</dimen>
+    <dimen name="card_text_big">32sp</dimen>
+    <dimen name="card_icon_height">80dp</dimen>
+    <dimen name="card_icon_width">80dp</dimen>
+    <dimen name="card_icon_to_text_margin">10dp</dimen>
+
+    <dimen name="card_landscape_width">290dp</dimen>
+    <dimen name="card_portrait_width">160dp</dimen>"
+    <dimen name="card_corner_radius">4dp</dimen>
+
+    <dimen name="card_landscape_internal_margin">10dp</dimen>
+    <dimen name="card_portrait_internal_margin">1dp</dimen>
+
+    <dimen name="card_landscape_warning_icon_size">25dp</dimen>
+    <dimen name="card_portrait_warning_icon_size">25dp</dimen>
+
+    <dimen name="settings_text_size">16sp</dimen>
+
+    <dimen name="help_text_title_size">30dp</dimen>
+    <dimen name="help_text_description_size">16dp</dimen>
+    <dimen name="help_text_description_padding">40dp</dimen>
+    <dimen name="help_image_size">250dp</dimen>
+    <dimen name="help_image_size_landscape">150dp</dimen>
+    <dimen name="help_dots_size">30dp</dimen>
+    <dimen name="help_dots_margin_bottom">20dp</dimen>
+
+</resources>

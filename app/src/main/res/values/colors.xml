@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="colorInRange">#4CAF50</color>
+    <color name="colorOutOfRange">#F44336</color>
+    <color name="colorNoInformation">#999999</color>
+
+    <color name="background_footer">#90000000</color>
+
+</resources>

@@ -1,0 +1,99 @@
+<resources>
+    <!-- APP string name -->
+    <string name = "app_name">Bluetooth TPMS</string>
+
+    <!-- MAIN screen strings -->
+    <string name = "titleMainActivity">Tire Pressure Monitoring System</string>
+
+    <!-- Cards string titles -->
+    <string name = "title_card_fl">Front Left Wheel</string>
+    <string name = "title_card_fr">Front Right Wheel</string>
+    <string name = "title_card_rl">Rear Left Wheel</string>
+    <string name = "title_card_rr">Rear Right Wheel</string>
+
+    <!-- Default string values -->
+    <string name = "id_value_default">000000</string>
+    <string name = "pressure_value_default">00.0</string>
+
+    <!--    GRANT PERMISSIONS string values      -->
+    <string name = "req_location_access_title">This app needs location access</string>
+    <string name = "req_location_access_text">Please grant location access so this app can detect beacons.</string>
+    <string name = "functionality_limited">Functionality limited</string>
+    <string name = "grant_permissions_error1">Since location access has not been granted, this app will not be able to discover beacons.</string>
+    <string name = "grant_permissions_error2">Since the Bluetooth device is not available this app will not be able to discover beacons.</string>
+    <string name = "grant_permissions_error3">Since the Bluetooth device is disabled this app will not be able to discover beacons.</string>
+    <string name = "grant_permissions_error4">Bluetooth Low Energy not supported, so this app will not be able to discover beacons.</string>
+    <string name = "close_string">CLOSE</string>
+
+    <!--    MORE INFORMATION string values      -->
+    <string name = "title_card_sensor_identification">Sensor ID</string>
+    <string name = "title_card_battery">Battery</string>
+    <string name = "title_card_pressure">Pressure</string>
+    <string name = "title_card_temperature">Temperature</string>
+
+    <!--    MENU string values      -->
+    <string name = "menu_settings">Settings</string>
+    <string name = "menu_help">Help</string>
+    <string name = "menu_about">About</string>
+
+    <!--    ABOUT screen strings    -->
+    <string name = "web_page"><a href="http://www.famar.com">http://www.famar.com</a></string>
+
+    <!-- SETTINGS screen strings    -->
+    <string name = "pref_title_sensors_identification">Sensors ID</string>
+    <string name = "pref_item_fl_id">Front Left Wheel ID</string>
+    <string name = "pref_item_fr_id">Front Right Wheel ID</string>
+    <string name = "pref_item_rl_id">Rear Left Wheel ID</string>
+    <string name = "pref_item_rr_id">Rear Right Wheel ID</string>
+    <string name = "pref_item_sensor_id_summary">Enter the Sensor ID from your product card</string>
+
+    <string name = "pref_title_measurements_units">Measurements units</string>
+    <string name = "pref_item_pressure_unit">Pressure unit</string>
+    <string name = "pref_item_temperature_unit">Temperature unit</string>
+    <string name = "pref_item_unit_summary">Select the desired unit</string>
+
+    <string name = "pref_title_warning_limits_and_alarms">Warning limits and alarms</string>
+    <string name = "pref_item_pressure_warning_up">Pressure warning upper limit</string>
+    <string name = "pref_item_pressure_warning_low">Pressure warning lower limit</string>
+    <string name = "pref_item_temperature_up">Temperature warning upper limit</string>
+    <string name = "pref_item_power_warning_low">Power warning lower limit</string>
+    <string name = "pref_item_warning_alarm">Warning alarm</string>
+    <string name = "pref_item_alarm_summary">Play alarm on Pressure Warning</string>
+
+    <string name = "pref_title_other_configurations">Other configurations</string>
+
+    <string name = "pref_item_car_icon">Car Icon</string>
+    <string name = "pref_item_car_icon_summary">Select the car icon</string>
+
+    <string name = "pref_title_about">About</string>
+    <string name = "pref_item_about">Application developed by FAMAR S.A.</string>
+
+    <string name = "pref_title_version">Version</string>
+    <string name = "pref_item_version">1.0</string>
+
+    <!-- HELP screen strings    -->
+    <string name = "next">NEXT</string>
+    <string name = "skip">SKIP</string>
+    <string name = "start">GOT IT</string>
+
+    <string name = "slide_1_title">Sensor Installation</string>
+    <string name = "slide_2_title">Battery replacement</string>
+    <string name = "slide_3_title">ID configuration</string>
+    <string name = "slide_4_title">Application Usage</string>
+
+    <string name = "slide_1_desc1">Unscrew the valve cap</string>
+    <string name = "slide_1_desc2">Screw in the nut</string>
+    <string name = "slide_1_desc3">screw on the Sensor</string>
+    <string name = "slide_1_desc4">Tighten up the nut to the Sensor by using the Spanner provided</string>
+
+    <string name = "slide_2_desc1">Unscrew the Nut</string>
+    <string name = "slide_2_desc2">Unscrew the Sensor</string>
+    <string name = "slide_2_desc3">Remove the Washer</string>
+    <string name = "slide_2_desc4">Unscrew the Sensor cover by using the sensor Spanner provided</string>
+    <string name = "slide_2_desc5">Replace the battery</string>
+
+    <string name = "slide_3_desc1">Set up the ID for each sensor in the Settings screen.\n You can found the ID in your product Card </string>
+
+    <string name = "slide_4_desc1">The main screen will show the state of the pressure for each tire.\nThe color represents the status: Gray (No information), Green (Ok), Red(Out of limits)</string>
+    <string name = "slide_4_desc2">If you tap the screen on each card it is possible to see more information for that tire</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="num_help_screens">12</integer>
+
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#c51162</color>
+    <color name="bg_slider_screen2">#d50000</color>
+    <color name="bg_slider_screen3">#00b8d4</color>
+    <color name="bg_slider_screen4">#6200ea</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#ff80ab</color>
+    <color name="dot_inactive_screen2">#ff8a80</color>
+    <color name="dot_inactive_screen3">#84ffff</color>
+    <color name="dot_inactive_screen4">#b388ff</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#880e4f</color>
+    <color name="dot_active_screen2">#b71c1c</color>
+    <color name="dot_active_screen3">#006064</color>
+    <color name="dot_active_screen4">#311b92</color>
+
+    <array name="array_background_color">
+        <item>@color/bg_slider_screen1</item><item>@color/bg_slider_screen1</item><item>@color/bg_slider_screen1</item><item>@color/bg_slider_screen1</item>
+        <item>@color/bg_slider_screen2</item><item>@color/bg_slider_screen2</item><item>@color/bg_slider_screen2</item><item>@color/bg_slider_screen2</item><item>@color/bg_slider_screen2</item>
+        <item>@color/bg_slider_screen3</item>
+        <item>@color/bg_slider_screen4</item><item>@color/bg_slider_screen4</item>
+        </array>
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item><item>@color/dot_active_screen1</item><item>@color/dot_active_screen1</item><item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item><item>@color/dot_active_screen2</item><item>@color/dot_active_screen2</item><item>@color/dot_active_screen2</item><item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+        <item>@color/dot_active_screen4</item><item>@color/dot_active_screen4</item>
+        </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item><item>@color/dot_inactive_screen1</item><item>@color/dot_inactive_screen1</item><item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item><item>@color/dot_inactive_screen2</item><item>@color/dot_inactive_screen2</item><item>@color/dot_inactive_screen2</item><item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+        <item>@color/dot_inactive_screen4</item><item>@color/dot_inactive_screen4</item>
+    </array>
+    <integer-array name="array_images">
+        <item>@drawable/help_installation1</item>
+        <item>@drawable/help_installation2</item>
+        <item>@drawable/help_installation3</item>
+        <item>@drawable/help_installation4</item>
+        <item>@drawable/help_battery1</item>
+        <item>@drawable/help_battery2</item>
+        <item>@drawable/help_battery3</item>
+        <item>@drawable/help_battery4</item>
+        <item>@drawable/help_battery5</item>
+        <item>@drawable/help_settings</item>
+        <item>@drawable/help_main_screen</item>
+        <item>@drawable/help_more_information_screen</item>
+    </integer-array>
+    <string-array name="array_titles">
+        <item>@string/slide_1_title</item>
+        <item>@string/slide_1_title</item>
+        <item>@string/slide_1_title</item>
+        <item>@string/slide_1_title</item>
+        <item>@string/slide_2_title</item>
+        <item>@string/slide_2_title</item>
+        <item>@string/slide_2_title</item>
+        <item>@string/slide_2_title</item>
+        <item>@string/slide_2_title</item>
+        <item>@string/slide_3_title</item>
+        <item>@string/slide_4_title</item>
+        <item>@string/slide_4_title</item>
+    </string-array>
+    <string-array name="array_descriptions">
+        <item>@string/slide_1_desc1</item>
+        <item>@string/slide_1_desc2</item>
+        <item>@string/slide_1_desc3</item>
+        <item>@string/slide_1_desc4</item>
+        <item>@string/slide_2_desc1</item>
+        <item>@string/slide_2_desc2</item>
+        <item>@string/slide_2_desc3</item>
+        <item>@string/slide_2_desc4</item>
+        <item>@string/slide_2_desc5</item>
+        <item>@string/slide_3_desc1</item>
+        <item>@string/slide_4_desc1</item>
+        <item>@string/slide_4_desc2</item>
+    </string-array>
+</resources>

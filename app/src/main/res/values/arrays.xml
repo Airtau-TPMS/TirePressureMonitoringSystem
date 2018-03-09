@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="img_cars">
+        <item>@drawable/car_blue</item>
+        <item>@drawable/car_old_blue</item>
+        <item>@drawable/car_green</item>
+        <item>@drawable/car_old_green</item>
+        <item>@drawable/car_red</item>
+        <item>@drawable/car_old_red</item>
+        <item>@drawable/car_yellow</item>
+        <item>@drawable/car_old_yellow</item>
+        <item>@drawable/car_orange</item>
+        <item>@drawable/car_taxi</item>
+        <item>@drawable/car_police</item>
+        <item>@drawable/car_ambulance</item>
+        <item>@drawable/car_schoolbus</item>
+        <item>@drawable/car_fire</item>
+        <item>@drawable/car_van_old_orange</item>
+        <item>@drawable/car_van_old_red</item>
+        <item>@drawable/car_xwing</item>
+        <item>@drawable/car_uss_enterprise</item>
+        <item>@drawable/no_car</item>
+    </integer-array>
+
+    <string-array name="list_cars_entries">
+        <item>Blue Car</item>
+        <item>Old Blue Car</item>
+        <item>Green Car</item>
+        <item>Old Green Car</item>
+        <item>Red Car</item>
+        <item>Old Red Car</item>
+        <item>Yellow Car</item>
+        <item>Old Yellow Car</item>
+        <item>Orange Car</item>
+        <item>Taxi</item>
+        <item>Police</item>
+        <item>Ambulance</item>
+        <item>Schoolbus</item>
+        <item>Fire truck</item>
+        <item>Orange Van</item>
+        <item>Red Van</item>
+        <item>X-Wing</item>
+        <item>USS Enterprise</item>
+        <item>No Car</item>
+    </string-array>
+    <string-array name="list_cars_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+
+</resources>

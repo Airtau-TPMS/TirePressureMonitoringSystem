@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/mainLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="famar.tirepressuremonitoringsystem.MainApplication.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/card_top_margin"
+            android:layout_marginLeft="@dimen/card_left_margin"
+            android:layout_marginRight="@dimen/card_left_margin">
+            <include
+                android:id="@+id/viewFL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/grid_item_with_txt_top"
+                android:layout_weight="50"/>
+            <include
+                android:id="@+id/viewFR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/grid_item_with_txt_top"
+                android:layout_weight="50"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/card_top_margin"
+            android:layout_marginLeft="@dimen/card_left_margin"
+            android:layout_marginRight="@dimen/card_left_margin">
+            <include
+                android:id="@+id/viewRL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/grid_item_with_txt_bottom"
+                android:layout_weight="50"/>
+            <include
+                android:id="@+id/viewRR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/grid_item_with_txt_bottom"
+                android:layout_weight="50"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgCarLogo"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/no_car"/>
+</FrameLayout>

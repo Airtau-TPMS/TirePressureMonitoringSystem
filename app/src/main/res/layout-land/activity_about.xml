@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/aboutBackground"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/about_screen_background">
+
+    <ImageView
+        android:id="@+id/imgAboutLogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/isologo_sention"
+        android:tint="@android:color/white"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/txtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgAboutLogo"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/card_text_big"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/txtProductLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/web_page"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="@dimen/card_text_small"
+        android:textStyle="bold"
+        android:layout_weight="0.1"/>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<resources>
+    <!-- APP string name -->
+    <string name = "app_name">Bluetooth TPMS</string>
+
+    <!-- MAIN screen strings -->
+    <string name = "titleMainActivity">Presión de Neumáticos</string>
+
+    <!-- Cards string titles -->
+    <string name = "title_card_fl">Neumático Delantero Izquierdo</string>
+    <string name = "title_card_fr">Neumático Delantero Derecho</string>
+    <string name = "title_card_rl">Neumático Trasero Izquierdo</string>
+    <string name = "title_card_rr">Neumático Trasero Derecho</string>
+
+    <!-- Default string values -->
+    <string name = "id_value_default">000000</string>
+    <string name = "pressure_value_default">00.0</string>
+
+    <!--    GRANT PERMISSIONS string values      -->
+    <string name = "req_location_access_title">Esta aplicación requiere acceso a su posición</string>
+    <string name = "req_location_access_text">Por favor habilite el acceso a su posición para que la aplicación pueda descubrir dispositivos.</string>
+    <string name = "functionality_limited">Funcionalidad limitada</string>
+    <string name = "grant_permissions_error1">Dado que no se ha otorgado el acceso a la ubicación, esta aplicación no podrá descubrir dispositivos.</string>
+    <string name = "grant_permissions_error2">Dado que el dispositivo Bluetooth no está disponible, esta aplicación no podrá descubrir baldispositivosizas.</string>
+    <string name = "grant_permissions_error3">Dado que el dispositivo Bluetooth está desactivado, esta aplicación no podrá descubrir dispositivos.</string>
+    <string name = "grant_permissions_error4">Bluetooth Low Energy no soportado. Esta aplicación no podrá descubrir dispositivos.</string>
+    <string name = "close_string">CERRAR</string>
+
+    <!--    MORE INFORMATION string values      -->
+    <string name = "title_card_sensor_identification">ID de Sensor</string>
+    <string name = "title_card_battery">Batería</string>
+    <string name = "title_card_pressure">Presión</string>
+    <string name = "title_card_temperature">Temperatura</string>
+
+    <!--    MENU string values      -->
+    <string name = "menu_settings">Configuración</string>
+    <string name = "menu_help">Ayuda</string>
+    <string name = "menu_about">Acerca de</string>
+
+    <!--    ABOUT screen strings    -->
+    <string name = "web_page"><a href="http://www.famar.com">http://www.famar.com</a></string>
+
+    <!-- SETTINGS screen strings    -->
+    <string name = "pref_title_sensors_identification">ID del Sensor</string>
+    <string name = "pref_item_fl_id">ID de Rueda Delantera Izquierda</string>
+    <string name = "pref_item_fr_id">ID de Rueda Delantera Derecha</string>
+    <string name = "pref_item_rl_id">ID de Rueda Trasera Izquierda</string>
+    <string name = "pref_item_rr_id">ID de Rueda Trasera Derecha</string>
+    <string name = "pref_item_sensor_id_summary">Ingrese el ID del Sensor de la tarjeta del producto</string>
+
+    <string name = "pref_title_measurements_units">Unidades de Medición</string>
+    <string name = "pref_item_pressure_unit">Unidades de Presión</string>
+    <string name = "pref_item_temperature_unit">Unidades de Temperatura</string>
+    <string name = "pref_item_unit_summary">Seleccione la unidad deseada</string>
+
+    <string name = "pref_title_warning_limits_and_alarms">Límites y alarmas de advertencia</string>
+    <string name = "pref_item_pressure_warning_up">Límite superior de presión</string>
+    <string name = "pref_item_pressure_warning_low">Límite inferior de de presión</string>
+    <string name = "pref_item_temperature_up">Límite superior de temperatura</string>
+    <string name = "pref_item_power_warning_low">Límite inferior de tensión de batería</string>
+    <string name = "pref_item_warning_alarm">Alarma de advertencia</string>
+    <string name = "pref_item_alarm_summary">Reproducir alarma por falla de presión</string>
+
+    <string name = "pref_title_other_configurations">Otras configuraciones</string>
+
+    <string name = "pref_item_car_icon">Icono del auto</string>
+    <string name = "pref_item_car_icon_summary">Seleccione el ícono del auto</string>
+
+    <string name = "pref_title_about">Acerca de</string>
+    <string name = "pref_item_about">Aplicación desarrollada por FAMAR S.A.</string>
+
+    <string name = "pref_title_version">Version</string>
+    <string name = "pref_item_version">1.0</string>
+
+    <!-- HELP screen strings    -->
+    <string name = "next">SIGUIENTE</string>
+    <string name = "skip">SALTAR</string>
+    <string name = "start">LISTO</string>
+
+    <string name = "slide_1_title">Instalación del Sensor</string>
+    <string name = "slide_2_title">Reemplazo de la Batería</string>
+    <string name = "slide_3_title">Configuración del ID</string>
+    <string name = "slide_4_title">Uso de la Aplicación</string>
+
+    <string name = "slide_1_desc1">Desatornille la tapa de la válvula del neumático</string>
+    <string name = "slide_1_desc2">Enrosque la tuerca</string>
+    <string name = "slide_1_desc3">Atornille el Sensor</string>
+    <string name = "slide_1_desc4">Apriete la tuerca al Sensor usando la llave provista</string>
+
+    <string name = "slide_2_desc1">Desatornille la tuerca</string>
+    <string name = "slide_2_desc2">Desatornille el sensor</string>
+    <string name = "slide_2_desc3">Retire la arandela</string>
+    <string name = "slide_2_desc4">Desatornille la cubierta del Sensor utilizando la llave provista</string>
+    <string name = "slide_2_desc5">Reemplace la batería</string>
+
+    <string name = "slide_3_desc1">Configure el ID para cada Sensor en la pantalla de Configuración.\n Encontrará el ID en la tarjeta del producto</string>
+
+    <string name = "slide_4_desc1">La pantalla principal mostrará el estado de la presión de cada neumático.\nEl color representa el estado: Gris (Sin información), Verde (OK), Rojo (fuera de los límites)</string>
+    <string name = "slide_4_desc2">Si toca la pantalla en cada tarjeta, es posible ver mayor información de ese neumático</string>
+</resources>
